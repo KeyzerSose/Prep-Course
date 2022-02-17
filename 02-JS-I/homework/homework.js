@@ -219,16 +219,7 @@ function esVocal(letra){
   let a=letra.length
   if (a!==1){return 'Dato incorrecto'}
   else{
-    if(letra=='A'){return 'Es vocal'}
-    else if(letra=='E'){return 'Es vocal'}
-    else if(letra=='I'){return 'Es vocal'}
-    else if(letra=='O'){return 'Es vocal'}
-    else if(letra=='U'){return 'Es vocal'}
-    else if(letra=='a'){return 'Es vocal'}
-    else if(letra=='e'){return 'Es vocal'}
-    else if(letra=='i'){return 'Es vocal'}
-    else if(letra=='o'){return 'Es vocal'}
-    else if(letra=='u'){return 'Es vocal'}
+    if(letra=='a' || letra=='e' || letra=='i' || letra=='o' || letra=='u'){return 'Es vocal'}
     else {return 'Dato incorrecto'}}
 }
 
